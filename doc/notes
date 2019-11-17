@@ -1,0 +1,22 @@
+things we might want to do with a slack bot (catherinebot):
+
+* send production/marketing schedule reminders (6 mos out, 2 wks out, etc)
+    - it says, "respond with thumbsup to shut me up"
+    - remind again every X hours until thumbsupped
+    - once shut up, it says, "great, imma fuck off now" or "good, i was
+      really hoping you were going to get to that"
+    - send links to read-only template documents for appropriate msgs
+* send reminders on StB, W&Aw/EM, staff meetings, etc.
+    - email reminder for StB and W&A
+    - 
+
+separate process to deal with calendar events (robinbot):
+
+* add relative events to calendar based on opening night date in cal
+* create data source for slack bot reminders based on cal entries
+* dates to add:
+    - marketing/production dates from relative calendar
+    - tech dates
+    - performance dates
+        - five weeks of thu/fri/sat
+        - industry 2nd and 3rd 

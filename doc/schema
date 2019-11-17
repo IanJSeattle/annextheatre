@@ -1,0 +1,15 @@
+things i think robinbot will do:
+
+* create calendar entries relative to opening night
+* create a dateful data file for catherinebot
+
+template fields we need:
+
+* relative date (days/months before opening)
+* title for calendar entry
+* reminder text to post on slack
+* channel to be notified
+* how far ahead of event to notify
+* how often to notify until marked complete
+* create calendar date? Y/N
+* create slack reminder? Y/N

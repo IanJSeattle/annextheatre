@@ -1,0 +1,23 @@
+catherinebot will do the following:
+
+* remind channels of upcoming events based on output from robinbot
+* repeat reminders until marked done
+* look for emoji reactions to know when a reminder is finished
+
+robinbot will do the following:
+
+* take in an opening night date and show name
+* take in a template file with data on relative show dates
+* create calendar entries based on opening night and relative dates
+* create data file for catherinebot to use as reminder dates
+
+template fields we need:
+
+* relative date (days/months before/after opening)
+* title for calendar entry
+* reminder text to post on slack
+* channel to be notified
+* how far ahead of event to notify
+* how often to notify until marked complete
+* create calendar date? Y/N
+* create slack reminder? Y/N
